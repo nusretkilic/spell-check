@@ -1,0 +1,43 @@
+# Ignore all dotfiles except .gitignore
+.*
+!.gitignore
+
+# Maven
+target/
+*.log
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Vue.js
+/dist/
+.nuxt/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Docker
+docker-compose.override.yml
